@@ -9,7 +9,6 @@ body {
 }
 .section-1,
 .section-2,
-.section-3,
 .section-4 {
   padding: 5px 100px;
 }
@@ -110,4 +109,25 @@ ul {
   width: 150px;
   height: 150px;
   text-align: center;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  padding: 90px 260px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+.quote-block {
+  font-size: 30px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 18px;
 }
