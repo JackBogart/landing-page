@@ -8,8 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .section-1,
-.section-2,
-.section-4 {
+.section-2 {
   padding: 5px 100px;
 }
 
@@ -72,6 +71,7 @@ ul {
   color: white;
   border-radius: 5px;
   border: 0;
+  font-weight: bold;
 }
 
 .placeholder {
@@ -130,4 +130,26 @@ ul {
   align-self: flex-end;
   font-weight: bold;
   font-size: 18px;
+}
+
+.section-4 {
+  margin: 75px 150px;
+  padding: 40px 100px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-4 .sign-up {
+  border: 2px white solid;
+}
+
+.sign-up-banner {
+  color: white;
+}
+.banner-header {
+  font-weight: bold;
+  font-size: 22px;
 }
